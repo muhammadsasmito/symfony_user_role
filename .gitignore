@@ -1,0 +1,19 @@
+# Ignore the node_modules directory
+/app/vendor/
+/mysql/
+
+# Ignore Logs
+logs
+*.log
+
+# Ignore the build directory
+/dist
+
+# The file containing environment variables 
+/app/.env
+/app/.env.local
+
+# Ignore IDE specific files
+.idea/
+.vscode/
+*.sw*
